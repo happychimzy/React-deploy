@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+
+.planet {
+  width: 272px;
+  height: 200px;
+  background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+.nav {
+  width: 200px;
+}
+.text-dark {
+  color: #121C33 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.character  {
+  width: 272px !important;
+  height: 200px;
+  background: #FFFFFF;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 16px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.char-img {
+  width: 100px;
+  height: 120px;
+  border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .figure{
+  background-image: url(../src/images/assets/planet-loader.svg);
+  background-size: auto;
+  background-position: center center;
+} */

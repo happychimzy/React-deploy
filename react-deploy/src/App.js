@@ -1,11 +1,11 @@
-import React from 'react'
-import { Route, Routes } from 'react-router';
-import { BrowserRouter as Router, } from 'react-router-dom';
+
+import React from 'react';
+import {Route, Routes } from 'react-router';
+import { BrowserRouter as Router,} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Characters from './components/Characters';
+import Characters from'./components/Characters';
 import Planets from './components/Planets';
-
 
 const App = () => {
   return (
@@ -28,4 +28,3 @@ const App = () => {
 
 
 export default App;
-
