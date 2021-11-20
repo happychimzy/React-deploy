@@ -1,3 +1,4 @@
+// import { useState } from "react"
 import planet9 from "./images/planets/planet-9.svg"
 import planet8 from "./images/planets/planet-8.svg"
 import planet7 from "./images/planets/planet-7.svg"
@@ -29,46 +30,57 @@ import img5 from "./images/characters/character-6.png"
 // ]
 export const planets = [
     {
+        "id" : "1",
         "name" : "Planet Alpha",
         "image" : planet9,
         "prop" : "Pop: 235"
     },
     {
-        "name" : "Planet Alpha",
+        "id" : "2",
+        "name" : "Planet Omega",
         "image" : planet8,
         "prop" : "Pop: 235"
     },
     {
-        "name" : "Planet Alpha",
+        "id" : "3",
+        "name" : "Planet Beta",
         "image" : planet7,
         "prop" : "Pop: 235"
     },
     {
-        "name" : "Planet Alpha",
+        "id" : "4",
+        "name" : "Planet Alpharius",
         "image" : planet6,
         "prop" : "Pop: 235"
     },
     {
-        "name" : "Planet Alpha",
+        
+        "id" : "5",
+        "name" : "Planet Gamma",
         "image" : planet5,
         "prop" : "Pop: 235"
     },
     {
+        
+        "id" : "6",
         "name" : "Planet Alpha",
         "image" : planet1,
         "prop" : "Pop: 235"
     },
     {
+        "id" : "7",
         "name" : "Planet Alpha",
         "image" : planet2,
         "prop" : "Pop: 235"
     },
     {
+        "id" : "8",
         "name" : "Planet Alpha",
         "image" : planet4,
         "prop" : "Pop: 235"
     },
     {
+        "id" : "9",
         "name" : "Planet Alpha",
         "image" : planet3,
         "prop" : "Pop: 235"
@@ -78,41 +90,49 @@ export const planets = [
 
 export const characters = [
     {
+        "id" : "1",
         "name" : "Gold Ainn",
         "image" : img1,
         "friends" : "50 friends"
     },
     {
+        "id" : "2",
         "name" : "Jude Eve",
         "image" : img7,
         "friends" : "17 friends",
     },
     {
+        "id" : "3",
         "name" : " Micheal Collins ",
         "image" : img3,
         "friends" : "25 friends",
     },
     {
+        "id" : "4",
         "name" : "Adlene Jesse",
         "image" : img4,
         "friends" : "23 friends"
     },
     {
+        "id" : "5",
         "name" : " Micheal James",
         "image" : img5,
         "friends" : "23 friends"
     },
     {
-        "name" : "Favour Beverly",
+        "id" : "6",
+        "name" : "cc",
         "image" : img6,
         "friends" : "20 friends"
     },
     {
+        "id" : "7",
         "name" : "Isaac Buston",
         "image" : img7,
         "friends" : "25 friends"
     },
     {
+        "id" : "8",
         "name" : "Katreen David",
         "image" : img8,
 
