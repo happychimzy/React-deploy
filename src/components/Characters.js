@@ -18,12 +18,12 @@ const Characters =()=> {
     setValue({ name: img.name })
   }
 
-    return ( 
+    return (
         <div className="d-flex row">
               {
                     characters.map(img =>  {
                         return<div lg={3} className="card character mx-2 my-3 px-0"  onClick={() => dynamicFunction(img)} key={img.id}>
-                        <img class="card-img-top img-img" src={img.image} alt="Card cap"/>
+                        <img class="card-img-top img-img" src={img.image} alt="Card cap" width="272px" height="136px"/>
                         <div class="card-body">
                           <h5 class="card-title">{img.name}</h5>
                           <p>{img.friends}</p>
