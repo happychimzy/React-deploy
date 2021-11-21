@@ -23,7 +23,7 @@ const Characters =()=> {
               {
                     characters.map(img =>  {
                         return<div lg={3} className="card character mx-2 my-3 px-0"  onClick={() => dynamicFunction(img)} key={img.id}>
-                        <img class="card-img-top img-img" src={img.image} alt="Card cap" width="272px" height="136px"/>
+                        <img class="card-img-top img-img" src={img.image} alt="Card cap" width="100%"/>
                         <div class="card-body">
                           <h5 class="card-title">{img.name}</h5>
                           <p>{img.friends}</p>
